@@ -34,7 +34,6 @@ body {
 
 html {
 	background: #161415 url(../images/bg.jpg) no-repeat center center fixed;
-
 	-webkit-background-size: cover !important;
 	-moz-background-size: cover !important;
 	background-size: cover !important;
@@ -312,7 +311,7 @@ img.pull-left {
 /*
 /* 03. =preloader
 /* =================================================================== */
-#preloader {
+/* #preloader {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -377,27 +376,27 @@ img.pull-left {
 		transform: rotate(360deg);
 	}
 
-}
+} */
 
 /*
 /* 04. forms
 /* =================================================================== */
-form {
+/* form {
 	margin-bottom: 24px;
-}
+} */
 
-fieldset {
+/* fieldset {
 	margin: 0 0 24px 0;
 	padding: 0;
 	border: none;
-}
+} */
 
 input,
 button {
 	-webkit-font-smoothing: antialiased;
 }
 
-input[type="text"],
+/* input[type="text"],
 input[type="password"],
 input[type="email"],
 textarea,
@@ -416,11 +415,11 @@ select {
 	max-width: 100%;
 	background: transparent;
 	border: 3px solid #a9aaab;
-}
+} */
 
-textarea {
+/* textarea {
 	min-height: 162px;
-}
+} */
 
 input[type="text"]:focus,
 input[type="password"]:focus,
@@ -429,13 +428,13 @@ textarea:focus {
 	background: white;
 }
 
-label,
+/* label,
 legend {
 	font: 15px/30px "montserrat-bold", sans-serif;
 	margin: 12px 0;
 	color: #252525;
 	display: block;
-}
+} */
 
 label span,
 legend span {
@@ -485,6 +484,7 @@ input[type="checkbox"] {
 	#content-wrap {
 		min-height: auto;
 		padding-top: 60px;
+		padding-bottom: 50px;
 	}
 
 }
@@ -640,7 +640,7 @@ main .site-header .logo a {
 
 /* counter
 ------------------------------------------ */
-#counter {
+/* #counter {
 	width: 90%;
 	color: white;
 	text-align: center;
@@ -723,11 +723,11 @@ main .site-header .logo a {
 		letter-spacing: 1px;
 	}
 
-}
+} */
 
 /* mailchimp form
 ------------------------------------------ */
-#mc-signup {
+/* #mc-signup {
 	clear: both;
 	width: 75%;
 	margin: 6px auto 30px;
@@ -847,13 +847,13 @@ main .site-header .logo a {
 	#mc-signup {
 		padding-left: 0;
 		padding-right: 0;
-	}
+	} */
 
 }
 
 /* modal toggles
 ------------------------------------------ */
-.modal-toggles {
+/* .modal-toggles {
 	clear: both;
 }
 
@@ -949,12 +949,12 @@ main .site-header .logo a {
 		padding: 0;
 	}
 
-}
+} */
 
 /*
 /* 06. =modals
 /* =================================================================== */
-#mod-about,
+/* #mod-about,
 #mod-map {
 	position: fixed;
 	top: 0;
@@ -1092,7 +1092,7 @@ main .site-header .logo a {
 		left: 25px;
 	}
 
-}
+} */
 
 /* modal about
 ------------------------------------------ */
@@ -1231,7 +1231,7 @@ main .site-header .logo a {
 }
 
 /* about slider */
-.slider hr {
+/* .slider hr {
 	filter: alpha(opacity=10);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
 	opacity: 0.1;
@@ -1262,9 +1262,9 @@ main .site-header .logo a {
 	background-size: contain;
 	margin: 0 auto 6px;
 	padding: 0;
-}
+} */
 
-.s-photography .slider-icon {
+/* .s-photography .slider-icon {
 	background-image: url("../images/slides/photography@2x.png");
 }
 
@@ -1318,11 +1318,11 @@ main .site-header .logo a {
 
 .owl-theme .owl-controls .owl-page.active span {
 	background: #fbca08;
-}
+} */
 
 /* modal map
 ------------------------------------------ */
-#mod-map {
+/* #mod-map {
 	background: black;
 	z-index: 999993;
 }
@@ -1433,7 +1433,7 @@ main .site-header .logo a {
 #mod-map #map-zoom-in:hover::before,
 #mod-map #map-zoom-out:hover::before {
 	color: #fbca08;
-}
+} */
 
 /*
 /* 07. =footer
