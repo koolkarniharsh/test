@@ -127,7 +127,7 @@ h6 {
 }
 
 p {
-	margin: 15px 0 15px 0;
+	margin: auto 0;
 }
 
 p img {
@@ -550,11 +550,10 @@ main .site-header .logo a {
 	font: 0/0 a;
 	text-shadow: none;
 	color: transparent;
-	width: 116px;
+	width: 80px;
 	height: 80px;
 	background: url("../images/logo/logo@2x.jpg") no-repeat;
 	background-size: contain;
-	margin-left: 25px;
 }
 
 @media only screen and (max-width:900px) {
@@ -1144,6 +1143,10 @@ main .site-header .logo a {
 	background-size: contain;
 }
 
+.left-column {
+	margin-top: 16px;
+}
+
 @media only screen and (max-width:900px) {
 	.about-header {
 		margin-top: 7%;
@@ -1208,6 +1211,7 @@ main .site-header .logo a {
 /* about content */
 .about-content {
 	color: white;
+	margin-right: 10%;
 }
 
 .about-content h3 {
