@@ -15,17 +15,17 @@
 /*
 /* =================================================================== */
 
-/* 
+/*
 /* 01. =webfonts and iconfonts
 /* =================================================================== */
 @import url("fonts.css");
 @import url("font-awesome/css/font-awesome.min.css");
 
-/* 
+/*
 /* 02. =document setup
 /* =================================================================== */
 
-/* Body 
+/* Body
 ---------------------------------------------------------------------- */
 html,
 body {
@@ -34,7 +34,7 @@ body {
 
 html {
 	background: #161415 url(../images/bg.jpg) no-repeat center center fixed;
-	
+
 	-webkit-background-size: cover !important;
 	-moz-background-size: cover !important;
 	background-size: cover !important;
@@ -46,7 +46,7 @@ body {
 	color: #575859;
 }
 
-/* links 
+/* links
 ---------------------------------------------------------------------- */
 a,
 a:visited {
@@ -247,7 +247,7 @@ hr {
 	height: 0;
 }
 
-/* Lists  
+/* Lists
 --------------------------------------------------------------------- */
 ul,
 ol {
@@ -257,7 +257,7 @@ ol {
 
 ul {
 	list-style: disc;
-	margin-left: 17px;
+	/* margin-left: 17px; */
 }
 
 dl {
@@ -273,7 +273,7 @@ dd {
 	margin: 0 0 0 20px;
 }
 
-/* Floated image  
+/* Floated image
 --------------------------------------------------------------------- */
 img.pull-right {
 	margin: 12px 0px 0px 18px;
@@ -283,7 +283,7 @@ img.pull-left {
 	margin: 12px 18px 0px 0px;
 }
 
-/* Style Placeholder Text  
+/* Style Placeholder Text
 --------------------------------------------------------------------- */
 ::-webkit-input-placeholder {
 	color: black;
@@ -309,7 +309,7 @@ img.pull-left {
 	color: black !important;
 }
 
-/* 
+/*
 /* 03. =preloader
 /* =================================================================== */
 #preloader {
@@ -379,7 +379,7 @@ img.pull-left {
 
 }
 
-/* 
+/*
 /* 04. forms
 /* =================================================================== */
 form {
@@ -453,7 +453,7 @@ input[type="checkbox"] {
 	display: inline;
 }
 
-/* 
+/*
 /* 05. =content styles
 /* =================================================================== */
 .browserupgrade {
@@ -638,7 +638,7 @@ main .site-header .logo a {
 
 }
 
-/* counter 
+/* counter
 ------------------------------------------ */
 #counter {
 	width: 90%;
@@ -951,7 +951,7 @@ main .site-header .logo a {
 
 }
 
-/* 
+/*
 /* 06. =modals
 /* =================================================================== */
 #mod-about,
@@ -1430,7 +1430,7 @@ main .site-header .logo a {
 	color: #fbca08;
 }
 
-/* 
+/*
 /* 07. =footer
 /* =================================================================== */
 footer {
@@ -1456,7 +1456,7 @@ footer a:focus {
 	color: #fff;
 }
 
-/* copyright 
+/* copyright
 ------------------------------------------ */
 .footer-copyright {
 	margin: 0;
@@ -1551,4 +1551,3 @@ footer a:focus {
 	}
 
 }
-
